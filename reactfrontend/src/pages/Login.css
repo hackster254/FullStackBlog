@@ -1,0 +1,12 @@
+.login__bg--container {
+    background-image: url('../assets/blog-images/login.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.login__form {
+    width: 90%;
+    margin:0 auto;
+}

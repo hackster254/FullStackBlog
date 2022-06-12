@@ -1,0 +1,16 @@
+.wrapper {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.editor {
+    min-height: 250px;
+    padding: 1rem;
+    
+}
+
+.toolbar {
+    border: 1px solid #ccc;
+}
