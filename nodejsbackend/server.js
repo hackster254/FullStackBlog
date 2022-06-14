@@ -3,6 +3,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
+const port = process.env.PORT || 5000
+
 const cors = require('cors')
 require('./connection')
 const userRoutes = require('./routes/userRoutes')
@@ -20,6 +22,6 @@ app.use(bodyParser.json())
 app.use('/users', userRoutes)
 app.use('/blogs', blogRoutes)
 
-app.listen(5000, ()=> {
+app.listen(port, ()=> {
     console.log('server is running on port 5000')
 })
