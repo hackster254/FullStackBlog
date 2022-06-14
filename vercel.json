@@ -19,7 +19,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "/nodejsbackend/server.js"
         }
     ]
 }
