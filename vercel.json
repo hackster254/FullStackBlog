@@ -18,7 +18,7 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/.*",
             "dest": "/reactfrontend/src/App.js"
         }
     ]
