@@ -1,6 +1,7 @@
 {
   "name": "reactfrontend",
   "version": "0.1.0",
+  "homepage": "https://full-stack-blog-lime.vercel.app",
   "private": true,
   "dependencies": {
     "@draft-js-plugins/drag-n-drop": "4.2.1",
