@@ -12,6 +12,7 @@
   "author": "HACKSTER254",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.2.1"
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
   }
 }
