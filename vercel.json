@@ -15,5 +15,11 @@
             "source": "/(.*)",
             "destination": "/nodejsbackend/server.js"
         }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
     ]
 }
