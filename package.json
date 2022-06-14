@@ -8,6 +8,7 @@
     "server": "npm start --prefix nodejsbackend",
     "client": "npm start --prefix reactfrontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
+    
   },
   "author": "HACKSTER254",
   "license": "ISC",
