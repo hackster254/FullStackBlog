@@ -46,7 +46,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     
-    "dev": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start"
+    "dev": "CI=false && react-scripts start"
   },
   "eslintConfig": {
     "extends": [
