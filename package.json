@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm run start --prefix nodejsbackend",
     "client": "npm run build --prefix reactfrontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "local": "npm run start --prefix reactfrontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "localdev": "concurrently \"npm run server\" \"npm run local\""
     
   },
   "author": "HACKSTER254",
