@@ -3,7 +3,7 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "npm install && nodemon server.js",
     "dev": "npm i && nodemon server.js"
     
   },
