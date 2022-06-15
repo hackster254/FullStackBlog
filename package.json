@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm run dev --prefix nodejsbackend",
-    "client": "npm run dev --prefix reactfrontend",
+    "client": "npm run build --prefix reactfrontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
     
   },
