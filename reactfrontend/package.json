@@ -42,8 +42,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm i && react-scripts start",
-    "build": "CI=false && npm install && react-scripts start",
+    "start": "CI=false && npm i && react-scripts start",
+    "build": "CI=false && npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "react-scripts start"
