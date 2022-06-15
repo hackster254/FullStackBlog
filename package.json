@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npm dev --prefix nodejsbackend",
-    "client": "npm dev --prefix reactfrontend",
+    "server": "npm run dev --prefix nodejsbackend",
+    "client": "npm run dev --prefix reactfrontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
     
   },
