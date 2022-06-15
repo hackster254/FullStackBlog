@@ -5,7 +5,6 @@
   "scripts": {
     "start": "npm install && nodemon server.js",
     "dev": "npm i && nodemon server.js"
-    
   },
   "name": "nodejsbackend",
   "version": "1.0.0",
