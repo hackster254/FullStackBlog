@@ -6,7 +6,9 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
 export const appApi = createApi({
     reducerPath: "appApi",
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000', mode: 'cors',
+    // for localhost
+    // baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000', mode: 'cors',
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://fullstackblog-production.up.railway.app', mode: 'cors',
     
     prepareHeaders: (headers, {getState}) => {
         const token = getState().user.token
