@@ -6,6 +6,9 @@ import {LinkContainer} from 'react-router-bootstrap'
 import { useLogoutUserMutation } from '../services/appApi'
 
 
+import MenuIcon from '@mui/icons-material/Menu';
+
+
 
 function Navigation({loggedIn}) {
   const {user }= useSelector((state)=> state.user)
@@ -22,18 +25,27 @@ function Navigation({loggedIn}) {
 
   }
   return (
-    <Navbar bg="light" expand="lg" sticky="top">
+    <>
+    <Navbar bg="light" variant='light' expand="lg" sticky="top">
   <Container>
     <LinkContainer to="/">
     <Navbar.Brand href="#home">Blog and Podcast</Navbar.Brand>
     </LinkContainer>
+
+
     
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    
+    <Navbar.Toggle aria-controls="basic-navbar-nav" aria-label='Toggle navigation' >
+
+        <MenuIcon />
+    </Navbar.Toggle>
+   
+    <Navbar.Collapse  id="basic-navbar-nav">
       <Nav className="ms-auto">
         <LinkContainer to="/">
           <Nav.Link>Home</Nav.Link>
         </LinkContainer>
+        
 
         <LinkContainer to="/login">
          
@@ -63,6 +75,7 @@ function Navigation({loggedIn}) {
     </Navbar.Collapse>
   </Container>
 </Navbar>
+</>
   )
 }
 
